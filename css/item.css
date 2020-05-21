@@ -125,15 +125,7 @@ and open the template in the editor.
     margin: 1em;
 }
 
-.container {
-  display: flex;
-    justify-content: flex-start;
-    margin: 0 auto;
-    padding: 0 1.5em;
-     justify-content: space-around;
-    
-    
-}
+
 .section-header {
     font-family: "Metal Mania";
     font-weight: normal;
@@ -175,52 +167,6 @@ and open the template in the editor.
     height: 30px;
 }
 
-.btn {
-    text-align: center;
-    vertical-align: middle;
-    padding: .67em .67em;
-    cursor: pointer;
-}
-
-.btn-header {
-    margin: .5em 15% 2em 15%;
-    color: white;
-    border: 2px solid #2D9CDB;
-    background-color: rgba(255, 255, 255, .1);
-    border-radius: 0;
-    font-size: 1.5em;
-    font-weight: lighter;
-    padding-left: 2em;
-    padding-right: 2em;
-}
-
-.btn-header:hover {
-    background-color: rgba(255, 255, 255, .3);
-}
-
-.btn-play {
-    display: block;
-    margin: 0 auto;
-    color: #2D9CDB;
-    font-size: 4em;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    padding: 0;
-    text-align: center;
-}
-
-.btn-primary {
-    color: white;
-    background-color: #56CCF2;
-    border: none;
-    border-radius: .3em;
-    font-weight: bold;
-}
-
-.btn-primary:hover {
-    background-color: #2D9CDB;
-}
 
 .tour-row {
     border-bottom: 1px solid black;
@@ -394,3 +340,5 @@ and open the template in the editor.
     font-size: 1em;
     bottom: 0;
 }
+
+
