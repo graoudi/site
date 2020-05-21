@@ -1,0 +1,115 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17 mai 2020, 09:20:45
+    Author     : kenza
+*/
+
+.navbar-expand{
+  background-color: #c5cae9 ;
+}
+
+ 
+#viande {
+    display: flex; /* Ce conteneur est "flexible" */
+    flex-wrap: wrap; /* Les éléments flexibles sont disposés sur plusieurs lignes */
+    justify-content: flex-start; /* Les éléments sont répartis équitablement sur la ligne */
+    margin-bottom: 45px; /* Marge inférieure */
+   
+}
+
+#viande article {
+    
+    margin: 10px; /* Marges extérieures */
+    padding: 10px; /* Marges intérieures */
+    border: transparent; /* Bordure blanche */
+    position: relative; /* Position relative */
+}
+
+#viande article img a{
+ 
+    margin: 10px; /* Marges extérieures */
+     white-space: nowrap;
+    
+}
+
+
+
+
+#viande article img:hover {
+    border: #bbb thin solid; /* Bordure au survol */
+}
+
+#viande .prix {
+    color: red; /* Couleur du texte */
+    font-weight: bold; /* Texte en gras */
+    margin-bottom: 10px; /* Marge basse */
+     text-transform : capitalize;
+}
+
+#viande .marque {
+    text-transform : uppercase;  /* Mise en majuscules du texte */
+    font-family: 'Nordic'; /* Police de caractères */
+    font-size: large; /* Le texte est grossi en XL */
+    display: inline; /* Affichage à la ligne pour éviter la superposition avec le stock */
+    white-space: nowrap; /* Pas de passage à la ligne */
+    font-weight: bold; /* Texte en gras */
+}
+
+
+.badge {
+    background-color: red;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+   margin-top: 50px;
+    padding-bottom: 100px; 
+    
+  justify-content: center;
+    
+}
+
+
+.image  {
+  
+   margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+    overflow: hidden;
+
+ 
+
+}
+
+
+
+
+.add-cart{
+    position: absolute;
+    width: 500%;
+    background-color: darkgrey;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.image:hover .cart1,
+.image:hover .cart2,
+.image:hover .cart3,
+.image:hover .cart4,
+.image:hover .cart5,
+.image:hover .cart6,
+.image:hover .cart7,
+.image:hover .cart8{
+    bottom: 5px;
+    opacity: 1;
+    padding: 10px;
+    text-decoration: none;
+}
