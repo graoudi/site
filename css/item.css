@@ -8,6 +8,8 @@ and open the template in the editor.
     Author     : kenza
 */
 
+/* CSS pour les articles de chaque section ex: boucherie ect... */
+
 #container {
     display: flex; /* Ce conteneur est "flexible" */
     flex-wrap: wrap; /* Les éléments flexibles sont disposés sur plusieurs lignes */
