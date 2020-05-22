@@ -35,7 +35,8 @@ function ready() {
 }
 
 function purchaseClicked() {
-    alert('Merci pour vos achats ')
+  alert('Merci pour vos achats ')
+
     var cartItems = document.getElementsByClassName('cart-items')[0]
     while (cartItems.hasChildNodes()) {
         cartItems.removeChild(cartItems.firstChild)
@@ -74,7 +75,7 @@ function addItemToCart(title, price, imageSrc) {
     var cartItemNames = cartItems.getElementsByClassName('cart-item-title')
     for (var i = 0; i < cartItemNames.length; i++) {
         if (cartItemNames[i].innerText == title) {
-            alert('This item is already added to the cart')
+            alert('cette article est deja ajoute au panier')
             return
         }
     }
