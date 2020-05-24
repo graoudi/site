@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <title> titre </title>
+  <link href="../css/ac.css" rel="stylesheet" type="text/css"/>
+  <link href="../css/item.css" rel="stylesheet" type="text/css"/>
+   <link rel="icon" type="image/png" href="../logo.jpg" />
+   <link href="../css/inscription.css" rel="stylesheet" type="text/css"/>
+        
+</head> 
+<body>    
+    
+    
+    <nav class=" navbar-expand">
+  <a href="#" > <img src="../logo.jpg" width="80" height="40"  alt="Logo"> </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      
+      <li class="nav-item">
+        <a class="nav-link" href="../index.html">ACCUEIL</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          TRAITEUR
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="boucherie.html">Boucherie</a>
+          <a class="dropdown-item" href="charcuterie.html">Charcuterie</a>
+         
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="poissonnerie.html">Poissonnerie</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          PRODUITS FRAIS
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Produit Laitier</a>
+          <a class="dropdown-item" href="#">Snack</a>
+     
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Produits Secs
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Boissons</a>
+          <a class="dropdown-item" href="#">Utilitaire</a>
+          
+      </li>
+      
+      
+      
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Recherche</button></form>
+      
+        <a href="cart.html">  
+         <button type="button" class="btn btn-primary"> Panier  </button>
+      </a>
+     <a href="identifier.html">
+          
+         <button type="button" class="btn btn-outline-success my-2 my-sm-0"> S'identifier </button>
+      </a>
+  </div>
+ </nav>
+   
+    
+    <form id="myForm">
+
+        <span class="form_col">Sexe :</span>
+        <label><input name="sex" type="radio" value="H" />Homme</label>
+        <label><input name="sex" type="radio" value="F" />Femme</label>
+        <span class="tooltip">Vous devez sélectionnez votre sexe</span>
+        <br /><br />
+
+        <label class="form_col" for="lastName">Nom :</label>
+        <input name="lastName" id="lastName" type="text" />
+        <span class="tooltip">Un nom ne peut pas faire moins de 2 caractères</span>
+        <br /><br />
+
+        <label class="form_col" for="firstName">Prénom :</label>
+        <input name="firstName" id="firstName" type="text" />
+
+        <span class="tooltip">Un prénom ne peut pas faire moins de 2 caractères</span>
+        <br /><br />
+
+        <label class="form_col" for="age">Âge :</label>
+        <input name="age" id="age" type="text" />
+        <span class="tooltip">L'âge doit être compris entre 5 et 140</span>
+        <br /><br />
+        
+        <label class="form_col" for="tel">Telephone:</label>
+        <input type ="tel" name="tel" maxlength="10" Pattern="^9[0-9]{7}" />
+        <br /><br />
+
+
+        <label class="form_col" for="pwd1">Mot de passe :</label>
+        <input name="pwd1" id="pwd1" type="password" />
+        <span class="tooltip">Le mot de passe ne doit pas faire moins de 6 caractères</span>
+
+        <br /><br />
+
+        <label class="form_col" for="pwd2">Mot de passe (confirmation) :</label>
+        <input name="pwd2" id="pwd2" type="password" />
+        <span class="tooltip">Le mot de passe de confirmation doit être identique à celui d'origine</span>
+        <br /><br />
+
+        <label class="form_col" for="country">Pays :</label>
+
+        <select name="country" id="country">
+        	<option value="none">Sélectionnez votre pays de résidence</option>
+        	<option value="en">Angleterre</option>
+        	<option value="us">États-Unis</option>
+        	<option value="fr">France</option>
+                <option value="fr">Espagne</option>
+    	</select>
+        <span class="tooltip">Vous devez sélectionner votre pays de résidence</span>
+
+        <br /><br />
+
+        
+
+         <span class="form_col"></span>
+        <label><input name="news" type="checkbox" />Je souhaite recevoir par email l'actualité, les nouveautés et les offres exclusives .</label>
+        <br /><br />
+        
+         <span class="form_col"></span>
+        <label><input name="news" type="checkbox" /> Je souhaite que l'enseigne me fasse profiter d'offres et d'avantages qui correspondent à mes achats et mes envies. *</label>
+        <br /><br />
+        
+        <span class="form_col"></span>
+        <label><input name="news" type="checkbox" /> Je souhaite recevoir ces communications par SMS ?</label>
+        <br /><br />
+        
+        <span class="form_col"></span>
+        <label><input name="news" type="checkbox" /> Je souhaite recevoir ces communications par email ?</label>
+        <br /><br />
+        
+        
+        <span class="form_col"></span>
+            
+        <input type="submit" value="M'inscrire" /> <input type="reset" value="Réinitialiser le formulaire" />
+                 
+
+    </form>
+    
+    
+    
+    
+    
+    
+    <script src="../js/inscription.js" type="text/javascript"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+ 
+    </body>
+</html>
+
+
