@@ -26,6 +26,7 @@ function ready() {
     }
 
     var addToCartButtons = document.getElementsByClassName('shop-item-button')
+    
     for (var i = 0; i < addToCartButtons.length; i++) {
         var button = addToCartButtons[i]
         button.addEventListener('click', addToCartClicked)
@@ -53,7 +54,7 @@ function removeCartItem(event) {
 function quantityChanged(event) {
     var input = event.target
     if (isNaN(input.value) || input.value <= 0) {
-        input.value = 1
+        input.value = 0 //article en quantite obligatoire dans le panier, ici commence a 0
     }
     updateCartTotal()
 }
