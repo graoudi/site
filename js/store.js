@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-
+/* panier */
   
 if (document.readyState == 'loading') {
     document.addEventListener('DOMContentLoaded', ready)
