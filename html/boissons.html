@@ -1,16 +1,207 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <title>£-Mag</title>
+   
+ <link href="../css/ac.css" rel="stylesheet" type="text/css"/>
+  <link href="../css/item.css" rel="stylesheet" type="text/css"/>
+ <link rel="icon" type="image/png" href="../logo.png" />
+   <link rel="icon" type="image/png" href="../logo.jpg" />
+    <script src="../js/store.js" async type="text/javascript"></script>
     </head>
     <body>
-        <div>TODO write content</div>
+        
+        
+     <!-- <label for="q">Quantité :</label>
+                            <select id="qt" class="form-control" name="q">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                            </select>
+
+                            <br>
+
+                            <button type="button" class="add-to-cart form-control btn btn-primary " data-id="439" data-name="Galets" data-price="71,50" data-weight="866" data-url="/produit/galets/">Ajouter au panier</button>
+    -->
+     <nav class=" navbar-expand">
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <a href="#" > <img src="../logo.png"  > </a>
+    <ul class="navbar-nav mr-auto">
+    
+      <li class="nav-item">
+        <a class="nav-link" href="../index.html">ACCUEIL</a>
+       
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          TRAITEUR
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="boucherie.html">Boucherie</a>
+          <a class="dropdown-item" href="charcuterie.html">Charcuterie</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="poissonnerie.html">Poissonnerie</a>
+         
+       
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          PRODUITS FRAIS
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            
+          <a class="dropdown-item" href="produitL.html">Produit Laitier</a>
+          <a class="dropdown-item" href="snack.html">Snack</a>
+     
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Produits Secs
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="boissons.html">Boissons</a>
+          <a class="dropdown-item" href="utilitaire.html">Utilitaire</a>
+          
+      </li>
+    </ul>
+     <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button></form>
+      
+        <a href="cart.html"> 
+         <button type="button" class="btn btn-primary"> Panier</button>
+      </a>
+      <a href="identifier.html">
+          
+         <button type="button" class="btn btn-outline-success my-2 my-sm-0"> S'identifier </button>
+      </a>
+  </div>
+</nav>
+   
+  <section class="container content-section">
+            <h2 class="section-header"></h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title" >Jus pressée</span>
+                    <a href="../boissons/jus/articles/orangepressees.html" > <img class="shop-item-image" src="../boissons/jus/images/jus1.jpg" alt="jus préssée" > </a>
+                   
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">2.50€</span></div>
+                        
+                    
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Jus innocent </span>
+                    <a href=../boissons/jus/articles/jusinnocent.html >  <img class="shop-item-image" src="../boissons/jus/images/jus2.jpg" alt="Jus innocent"> </a>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">2,95€</span>  </div>
+                </div>
+                
+                <div class="shop-item">
+                    <span class="shop-item-title">Jus pur bio</span>
+                    <a href="../boissons/jus/articles/purjusbio.html" >  <img class="shop-item-image" src="../boissons/jus/images/jus3.jpg" > </a>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">2.30€</span>
+                
+                    </div>
+                </div>
+                
+              
+            </div> 
+             <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title" > Joker pur jus</span>
+                    <a href="../boissons/jus/articles/Joker.html" > <img class="shop-item-image" src="../boissons/jus/images/jus4.jpg" alt="joker pur jus" width="250" height ="80" > </a>
+                   
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">2.75€</span>
+                   
+                 
+                        
+                    </div>
+ 
+                </div>
+                 
+                 
+                 <div class="shop-item">
+                    <span class="shop-item-title">Jus de carotte orange citron</span>
+                    <a href="../boissons/jus/articles/juscarotte.html" >  <img class="shop-item-image" src="../boissons/jus/images/jus6.jpg" alt="jus de carotte range citron "  width="250" height ="80"> </a>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">2.30€</span>
+                
+                    </div>
+                </div>
+                 
+                 
+                 
+                <div class="shop-item">
+                    <span class="shop-item-title">Pack de 6, pressade bio</span>
+                    <a href="../boissons/jus/articles/pressadebio.html" >  <img class="shop-item-image" src="../boissons/jus/images/jus5.jpg" alt="pack de 6 jus bio"   >  </a>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">1.80€</span>
+                       
+                    </div>
+                </div>
+               
+                
+                
+        <!--       
+                  <div class="shop-items">
+                    
+                <div class="shop-item">
+                    <span class="shop-item-title" > Hachée de porc</span>
+                    <a href="../boucherie/articles/hachee.html" > <img class="shop-item-image" src="../boucherie/images/hachee.png" width="300" height ="80"> </a>
+                   
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">5.95€</span>
+                   
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Escalope de poulet</span>
+                    <a href="../boucherie/articles/escalope.html" >  <img class="shop-item-image" src="../boucherie/images/escalopepoulet.png"> </a>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">7.35€</span>
+                       
+                    </div>
+                </div>
+                
+                <div class="shop-item">
+                    <span class="shop-item-title">Cuisses de lapin</span>
+                    <a href="../boucherie/articles/lapin.html" >  <img class="shop-item-image" src="../boucherie/images/lapin.png" > </a>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">7.20€</span>
+                
+                    </div>
+                </div>
+                
+                
+            </div> -->
+                
+            </div> 
+
+
+
+  </section>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+ <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
     </body>
 </html>
