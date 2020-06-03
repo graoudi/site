@@ -6,11 +6,356 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <title>£-Mag</title>
+   
+ <link href="../css/ac.css" rel="stylesheet" type="text/css"/>
+  <link href="../css/item.css" rel="stylesheet" type="text/css"/>
+ <link rel="icon" type="image/png" href="../logo.png" />
+   <link rel="icon" type="image/png" href="../logo.jpg" />
+    <script src="../js/store.js" async type="text/javascript"></script>
     </head>
+   
     <body>
-        <div>TODO write content</div>
+        
+        
+     <!-- <label for="q">Quantité :</label>
+                            <select id="qt" class="form-control" name="q">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                            </select>
+
+                            <br>
+
+                            <button type="button" class="add-to-cart form-control btn btn-primary " data-id="439" data-name="Galets" data-price="71,50" data-weight="866" data-url="/produit/galets/">Ajouter au panier</button>
+    -->
+     <nav class=" navbar-expand">
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <a href="#" > <img src="../logo.png"  alt="Logo"> </a>
+    <ul class="navbar-nav mr-auto">
+      
+      <li class="nav-item">
+        <a class="nav-link" href="../index.html">ACCUEIL</a>
+       
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          TRAITEUR
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="boucherie.html">Boucherie</a>
+          <a class="dropdown-item" href="charcuterie.html">Charcuterie</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="poissonnerie.html">Poissonnerie</a>
+         
+       
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          PRODUITS FRAIS
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            
+          <a class="dropdown-item" href="produitL.html">Produit Laitier</a>
+          <a class="dropdown-item" href="snack.html">Snack</a>
+     
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Produits Secs
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="boissons.html">Boissons</a>
+          <a class="dropdown-item" href="utilitaire.html">Utilitaire</a>
+          
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Fruits et Legumes
+        </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="fruits.html">Fruits</a>
+          <a class="dropdown-item" href="legumes.html">Legumes</a>
+      </li>
+    </ul>
+      <div class="header__top__right__language">
+                <img src="../france.png" width='20' height='20' alt="">
+                <div>Français</div>
+                <span class="arrow_carrot-down"></span>
+                <ul>
+                    <li><a href="#">Anglais</a></li>
+                    <li><a href="#">Espagnol</a></li>
+                </ul>
+            </div> 
+     <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button></form>
+      
+        <a href="cart.html"> 
+         <button type="button" class="btn btn-primary"> Panier</button>
+      </a>
+      <a href="identifier.html">
+          
+         <button type="button" class="btn btn-outline-success my-2 my-sm-0"> S'identifier </button>
+      </a>
+  </div>
+</nav>
+ <marquee> Suite à l'épidemie du COVID19, certaines livraisons peuvent être retardées. </marquee>
+  <section class="container content-section">
+            <h2 class="section-header"></h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title" >Ail suprême</span>
+                    <a href="../fruits_legumes/legumes/articles/ail1.html" > <img class="shop-item-image" src="../fruits_legumes/legumes/images/ail1.jpg" > </a>
+            
+                   
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">3.00€</span>
+                   
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Ail violet</span>
+                    <a href="../fruits_legumes/legumes/articles/ail2.html" >  <img class="shop-item-image" src="../fruits_legumes/legumes/images/ail2.jpg"> </a>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">2.00€ l'unité</span>
+                     
+                    </div>
+                </div>
+               
+                <div class="shop-item">
+                    <span class="shop-item-title">Aubergine Espagne</span>
+                    <a href="../fruits_legumes/legumes/articles/aubergine1.html" >  <img class="shop-item-image" src="../fruits_legumes/legumes/images/aubergine1.jpg"> </a>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">3.99€ le kg</span>
+                
+                    </div>
+                </div>
+                
+                
+            </div> 
+             <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title" >Aubergine France</span>
+                    <a href="../fruits_legumes/legumes/articles/aubergine2.html" > <img class="shop-item-image" src="../fruits_legumes/legumes/images/aubergine2.jpg" width="250" height ="80" > </a>
+                   
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">2.99€ les deux</span>
+                   
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Champignons France</span>
+                    <a href="../fruits_legumes/legumes/articles/champi1.html" >  <img class="shop-item-image" src="../fruits_legumes/legumes/images/champi1.jpg"   >  </a>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">3.99€ la barquette</span>
+                       
+                    </div>
+                </div>
+                
+                <div class="shop-item">
+                    <span class="shop-item-title">Champignons bruns</span>
+                    <a href="../fruits_legumes/legumes/articles/champi3.html" >  <img class="shop-item-image" src="../fruits_legumes/legumes/images/champi3.jpg"  width="250" height ="80"> </a>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">2.09€ les 200g</span>
+                
+                    </div>
+                </div>
+                
+                  <div class="shop-items">
+                    
+                <div class="shop-item">
+                    <span class="shop-item-title" >Courgettes Espagne</span>
+                    <a href="../fruits_legumes/legumes/articles/courgette1.html" > <img class="shop-item-image" src="../fruits_legumes/legumes/images/courgette1.jpg" width="300" height ="80"> </a>
+                   
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">1.60€ le kg</span>
+                   
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Courgettes rondes</span>
+                    <a href="../fruits_legumes/legumes/articles/courgette2.html" >  <img class="shop-item-image" src="../fruits_legumes/legumes/images/courgette2.jpg"> </a>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">2.95€ le kg</span>
+                       
+                    </div>
+                </div>
+                
+                <div class="shop-item">
+                    <span class="shop-item-title">Oignons roses</span>
+                    <a href="../fruits_legumes/legumes/articles/oignon1.html" >  <img class="shop-item-image" src="../fruits_legumes/legumes/images/oignon1.jpg" > </a>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">2.50€ les 500g</span>
+                
+                    </div>
+                </div>
+                      
+                <div class="shop-item">
+                    <span class="shop-item-title">Oignons rouges</span>
+                    <a href="../fruits_legumes/legumes/articles/oignon2.html" >  <img class="shop-item-image" src="../fruits_legumes/legumes/images/oignon2.jpg" > </a>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">2.39€ les 500g</span>
+                
+                    </div>
+                </div>
+                
+                    <div class="shop-item">
+                    <span class="shop-item-title">Oignons jaunes</span>
+                    <a href="../fruits_legumes/legumes/articles/oignon3.html" >  <img class="shop-item-image" src="../fruits_legumes/legumes/images/oignon3.jpg" > </a>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">2.95€ le kg</span>
+                
+                    </div>
+                </div>
+                   
+                 <div class="shop-item">
+                    <span class="shop-item-title">Poivrons verts</span>
+                    <a href="../fruits_legumes/legumes/articles/poivron1.html" >  <img class="shop-item-image" src="../fruits_legumes/legumes/images/poivron1.jpg" > </a>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">3.95€ le kg</span>
+                
+                    </div>
+                </div>                     
+                      
+                      
+                 <div class="shop-item">
+                    <span class="shop-item-title">Poivrons rouges</span>
+                    <a href="../fruits_legumes/legumes/articles/poivron2.html" >  <img class="shop-item-image" src="../fruits_legumes/legumes/images/poivron2.jpg" > </a>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">4.50€ le kg</span>
+                
+                    </div>
+                </div>
+                      
+                <div class="shop-item">
+                    <span class="shop-item-title">Poivrons panachés</span>
+                    <a href="../fruits_legumes/legumes/articles/poivron3.html" >  <img class="shop-item-image" src="../fruits_legumes/legumes/images/poivron3.jpg" > </a>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">1.50€ les 500g</span>
+                
+                    </div>
+                </div>
+                 
+                <div class="shop-item">
+                    <span class="shop-item-title">Tomates grappes</span>
+                    <a href="../fruits_legumes/legumes/articles/tomate1.html" >  <img class="shop-item-image" src="../fruits_legumes/legumes/images/tomate1.jpg" > </a>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">2.59€ le kg</span>
+                
+                    </div>
+                </div>
+                      
+                <div class="shop-item">
+                    <span class="shop-item-title">Tomates allongées</span>
+                    <a href="../fruits_legumes/legumes/articles/tomate2.html" >  <img class="shop-item-image" src="../fruits_legumes/legumes/images/tomate2.jpg" > </a>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">2.29€ le kg</span>
+                
+                    </div>
+                </div>
+                   
+                <div class="shop-item">
+                    <span class="shop-item-title">Tomates cerises</span>
+                    <a href="../fruits_legumes/legumes/articles/tomate3.html" >  <img class="shop-item-image" src="../fruits_legumes/legumes/images/tomate3.jpg" > </a>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">2.90€ les 500g</span>
+                
+                    </div>
+                </div>
+                      
+                      
+            </div> 
+                
+            </div> 
+
+  </section>
+    
+    <!-- Footer Section Begin -->
+    <footer class="footer spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer__about">
+                        <div class="footer__about__logo">
+                           
+                        </div>
+                        <ul>
+                            <li>Addresse: Avenue Georges pompidou, Isen Toulon</li>
+                            <li>Telephone: 04.93.00.00.00</li>
+                            <li>Email: webdev@isen.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
+                    <div class="footer__widget">
+                       
+                        <ul>
+                            <li><a href="#">Nous contacter</a></li>
+                            
+                            <li><a href="#">Nos horaires </a></li>
+                           
+                            <li><a href="#">Politique de confidentialité</a></li>
+                            <li><a href="#">Ou sommes-nous?</a></li>
+                        </ul>
+                        <ul>
+                            
+                            <li><a href="#">Nos services</a></li>
+                            <li><a href="identifier.html">Votre compte</a></li> 
+                            <li><a href="carteclient.html">Faire sa carte</a></li>  
+                            <li><a href="cart.html">Votre panier</a></li>
+                          
+                        </ul>
+                    </div>
+                </div>
+                
+                   <div class="col-lg-4 col-md-12">
+                    <div class="footer__widget">
+                        <h6>Rejoignez nos newsletter maintenant</h6>
+                        <p>Recevez des mises à jour par e-mail sur les dernières promotions et nos offres spéciales.</p>
+                        <form action="#">
+                            <input type="text" placeholder="Enter your mail">
+                            <button type="submit" class="site-btn">Subscribe</button>
+                        </form>
+                         
+               <div class="footer__copyright__payment"><img src="../payment.png" height="100" width="400" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+                
+                
+               
+            </div>
+            
+                   
+                  
+                  
+            
+       
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+ <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
     </body>
 </html>
