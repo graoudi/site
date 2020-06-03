@@ -13,7 +13,8 @@ and open the template in the editor.
 /*CSS pour les liens sur images des articles*/
 .container {
   display: flex;
-    justify-content: flex-start;
+   justify-content: flex-start; 
+   flex-wrap: wrap;
     margin: 10px;
     padding: 10px;
     padding-top: 10px;

@@ -23,7 +23,7 @@ and open the template in the editor.
 }
 
 .contact__widget h4 {
-	color: #1c1c1c;
+	color: blue;
 	font-weight: 700;
 	margin-bottom: 6px;
 	margin-top: 18px;
@@ -32,4 +32,58 @@ and open the template in the editor.
 .contact__widget p {
 	color: #666666;
 	margin-bottom: 0;
+}
+
+/* nous contcater */
+
+.contact__form__title {
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.contact__form__title h3 {
+	color: blue;
+	font-weight: 700;
+}
+
+.contact-form {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.contact-form form input {
+	width: 100%;
+	height: 50px;
+	font-size: 16px;
+	color: #6f6f6f;
+	padding-left: 20px;
+	margin-bottom: 30px;
+	border: 1px solid #ebebeb;
+	border-radius: 4px;
+}
+
+.contact-form form input::placeholder {
+	color: #6f6f6f;
+}
+
+.contact-form form textarea {
+	width: 100%;
+	height: 150px;
+	font-size: 16px;
+	color: #6f6f6f;
+	padding-left: 20px;
+	margin-bottom: 24px;
+	border: 1px solid #ebebeb;
+	border-radius: 4px;
+	padding-top: 12px;
+	resize: none;
+}
+
+.contact-form form textarea::placeholder {
+	color: #6f6f6f;
+}
+
+.contact-form form button {
+	font-size: 18px;
+	letter-spacing: 2px;
 }
